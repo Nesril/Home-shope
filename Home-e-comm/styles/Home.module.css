@@ -1,0 +1,51 @@
+.banner{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.container{
+  margin-left:100px ;
+  margin-right:100px ;
+}
+.sale{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.rent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container h2{
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+.bellowImage{
+  margin-top:20px ;
+  text-align: center
+  ;color: black;
+}
+.title{
+  font-size: 30px;
+}
+.describe{
+  letter-spacing: 3px;
+  font-weight: 900;
+}
+.recomand{
+  color: rgb(99, 76, 17);
+}
+.bellowImage button{
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  background:transparent;
+  color: goldenrod;
+}

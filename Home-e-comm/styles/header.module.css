@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+   padding: 15px 25px 15px 20px;
+   background: linear-gradient(to top right,black,rgb(73, 71, 71),goldenrod);
+
+}
+.title{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    letter-spacing: 2px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    color:black;
+    letter-spacing: 2px;
+
+}
+.hr{
+    background-color: black;
+}
+.menuButton{
+font-size: 25px;
+border: none;
+background: black;
+}
